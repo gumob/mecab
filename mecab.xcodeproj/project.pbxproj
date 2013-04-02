@@ -40,8 +40,8 @@
 		A3D29516170AD8BF00209D38 /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F7170AD8BF00209D38 /* viterbisub.h */; };
 		A3D29517170AD8BF00209D38 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F8170AD8BF00209D38 /* writer.h */; };
 		A3D29534170AD8CC00209D38 /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29518170AD8CC00209D38 /* char_property.cpp */; };
-		A3D29535170AD8CC00209D38 /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29519170AD8CC00209D38 /* connector.cpp */; };
-		A3D29536170AD8CC00209D38 /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951A170AD8CC00209D38 /* context_id.cpp */; };
+		A3D29535170AD8CC00209D38 /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29519170AD8CC00209D38 /* connector.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		A3D29536170AD8CC00209D38 /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951A170AD8CC00209D38 /* context_id.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
 		A3D29537170AD8CC00209D38 /* dictionary_compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951B170AD8CC00209D38 /* dictionary_compiler.cpp */; };
 		A3D29538170AD8CC00209D38 /* dictionary_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951C170AD8CC00209D38 /* dictionary_generator.cpp */; };
 		A3D29539170AD8CC00209D38 /* dictionary_rewriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951D170AD8CC00209D38 /* dictionary_rewriter.cpp */; };
@@ -323,6 +323,7 @@
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "mecab" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
+				A3D29589170B04A500209D38 /* Resources */,
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
 			);
@@ -362,6 +363,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D29589170B04A500209D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {
