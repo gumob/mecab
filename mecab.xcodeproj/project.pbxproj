@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D29450170AD7F000209D38 /* mecab_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A3D2944F170AD7F000209D38 /* mecab_Prefix.pch */; };
+		A3D294F9170AD8BF00209D38 /* char_property.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294DA170AD8BE00209D38 /* char_property.h */; };
+		A3D294FA170AD8BF00209D38 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294DB170AD8BE00209D38 /* common.h */; };
+		A3D294FB170AD8BF00209D38 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294DC170AD8BE00209D38 /* config.h */; };
+		A3D294FC170AD8BF00209D38 /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294DD170AD8BE00209D38 /* connector.h */; };
+		A3D294FD170AD8BF00209D38 /* context_id.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294DE170AD8BE00209D38 /* context_id.h */; };
+		A3D294FE170AD8BF00209D38 /* darts.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294DF170AD8BE00209D38 /* darts.h */; };
+		A3D294FF170AD8BF00209D38 /* dictionary_rewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E0170AD8BE00209D38 /* dictionary_rewriter.h */; };
+		A3D29500170AD8BF00209D38 /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E1170AD8BE00209D38 /* dictionary.h */; };
+		A3D29501170AD8BF00209D38 /* feature_index.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E2170AD8BE00209D38 /* feature_index.h */; };
+		A3D29502170AD8BF00209D38 /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E3170AD8BE00209D38 /* freelist.h */; };
+		A3D29503170AD8BF00209D38 /* iconv_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E4170AD8BE00209D38 /* iconv_utils.h */; };
+		A3D29504170AD8BF00209D38 /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E5170AD8BE00209D38 /* lbfgs.h */; };
+		A3D29505170AD8BF00209D38 /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E6170AD8BE00209D38 /* learner_node.h */; };
+		A3D29506170AD8BF00209D38 /* learner_tagger.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E7170AD8BE00209D38 /* learner_tagger.h */; };
+		A3D29507170AD8BF00209D38 /* mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E8170AD8BE00209D38 /* mecab.h */; };
+		A3D29508170AD8BF00209D38 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294E9170AD8BE00209D38 /* mempool.h */; };
+		A3D29509170AD8BF00209D38 /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294EA170AD8BE00209D38 /* mmap.h */; };
+		A3D2950A170AD8BF00209D38 /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294EB170AD8BF00209D38 /* mutex.h */; };
+		A3D2950B170AD8BF00209D38 /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294EC170AD8BF00209D38 /* nbest_generator.h */; };
+		A3D2950C170AD8BF00209D38 /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294ED170AD8BF00209D38 /* param.h */; };
+		A3D2950D170AD8BF00209D38 /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294EE170AD8BF00209D38 /* scoped_ptr.h */; };
+		A3D2950E170AD8BF00209D38 /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294EF170AD8BF00209D38 /* stream_wrapper.h */; };
+		A3D2950F170AD8BF00209D38 /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F0170AD8BF00209D38 /* string_buffer.h */; };
+		A3D29510170AD8BF00209D38 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F1170AD8BF00209D38 /* thread.h */; };
+		A3D29511170AD8BF00209D38 /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F2170AD8BF00209D38 /* tokenizer.h */; };
+		A3D29512170AD8BF00209D38 /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F3170AD8BF00209D38 /* ucs.h */; };
+		A3D29513170AD8BF00209D38 /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F4170AD8BF00209D38 /* ucstable.h */; };
+		A3D29514170AD8BF00209D38 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F5170AD8BF00209D38 /* utils.h */; };
+		A3D29515170AD8BF00209D38 /* viterbi.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F6170AD8BF00209D38 /* viterbi.h */; };
+		A3D29516170AD8BF00209D38 /* viterbisub.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F7170AD8BF00209D38 /* viterbisub.h */; };
+		A3D29517170AD8BF00209D38 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D294F8170AD8BF00209D38 /* writer.h */; };
+		A3D29534170AD8CC00209D38 /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29518170AD8CC00209D38 /* char_property.cpp */; };
+		A3D29535170AD8CC00209D38 /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29519170AD8CC00209D38 /* connector.cpp */; };
+		A3D29536170AD8CC00209D38 /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951A170AD8CC00209D38 /* context_id.cpp */; };
+		A3D29537170AD8CC00209D38 /* dictionary_compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951B170AD8CC00209D38 /* dictionary_compiler.cpp */; };
+		A3D29538170AD8CC00209D38 /* dictionary_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951C170AD8CC00209D38 /* dictionary_generator.cpp */; };
+		A3D29539170AD8CC00209D38 /* dictionary_rewriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951D170AD8CC00209D38 /* dictionary_rewriter.cpp */; };
+		A3D2953A170AD8CC00209D38 /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951E170AD8CC00209D38 /* dictionary.cpp */; };
+		A3D2953B170AD8CC00209D38 /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2951F170AD8CC00209D38 /* eval.cpp */; };
+		A3D2953C170AD8CC00209D38 /* feature_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29520170AD8CC00209D38 /* feature_index.cpp */; };
+		A3D2953D170AD8CC00209D38 /* iconv_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29521170AD8CC00209D38 /* iconv_utils.cpp */; };
+		A3D2953E170AD8CC00209D38 /* lbfgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29522170AD8CC00209D38 /* lbfgs.cpp */; };
+		A3D2953F170AD8CC00209D38 /* learner_tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29523170AD8CC00209D38 /* learner_tagger.cpp */; };
+		A3D29540170AD8CC00209D38 /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29524170AD8CC00209D38 /* learner.cpp */; };
+		A3D29541170AD8CC00209D38 /* libmecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29525170AD8CC00209D38 /* libmecab.cpp */; };
+		A3D29542170AD8CC00209D38 /* mecab-cost-train.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29526170AD8CC00209D38 /* mecab-cost-train.cpp */; };
+		A3D29543170AD8CC00209D38 /* mecab-dict-gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29527170AD8CC00209D38 /* mecab-dict-gen.cpp */; };
+		A3D29544170AD8CC00209D38 /* mecab-dict-index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29528170AD8CC00209D38 /* mecab-dict-index.cpp */; };
+		A3D29545170AD8CC00209D38 /* mecab-system-eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29529170AD8CC00209D38 /* mecab-system-eval.cpp */; };
+		A3D29546170AD8CC00209D38 /* mecab-test-gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2952A170AD8CC00209D38 /* mecab-test-gen.cpp */; };
+		A3D29547170AD8CC00209D38 /* mecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2952B170AD8CC00209D38 /* mecab.cpp */; };
+		A3D29548170AD8CC00209D38 /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2952C170AD8CC00209D38 /* nbest_generator.cpp */; };
+		A3D29549170AD8CC00209D38 /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2952D170AD8CC00209D38 /* param.cpp */; };
+		A3D2954A170AD8CC00209D38 /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2952E170AD8CC00209D38 /* string_buffer.cpp */; };
+		A3D2954B170AD8CC00209D38 /* tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D2952F170AD8CC00209D38 /* tagger.cpp */; };
+		A3D2954C170AD8CC00209D38 /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29530170AD8CC00209D38 /* tokenizer.cpp */; };
+		A3D2954D170AD8CC00209D38 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29531170AD8CC00209D38 /* utils.cpp */; };
+		A3D2954E170AD8CC00209D38 /* viterbi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29532170AD8CC00209D38 /* viterbi.cpp */; };
+		A3D2954F170AD8CC00209D38 /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D29533170AD8CC00209D38 /* writer.cpp */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3D2944F170AD7F000209D38 /* mecab_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mecab_Prefix.pch; path = mecab/mecab_Prefix.pch; sourceTree = "<group>"; };
+		A3D294D2170AD89F00209D38 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		A3D294D3170AD89F00209D38 /* BSD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BSD; sourceTree = "<group>"; };
+		A3D294D4170AD89F00209D38 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		A3D294D5170AD89F00209D38 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A3D294D6170AD89F00209D38 /* GPL */ = {isa = PBXFileReference; lastKnownFileType = text; path = GPL; sourceTree = "<group>"; };
+		A3D294D7170AD89F00209D38 /* LGPL */ = {isa = PBXFileReference; lastKnownFileType = text; path = LGPL; sourceTree = "<group>"; };
+		A3D294D8170AD89F00209D38 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		A3D294D9170AD89F00209D38 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A3D294DA170AD8BE00209D38 /* char_property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = char_property.h; sourceTree = "<group>"; };
+		A3D294DB170AD8BE00209D38 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		A3D294DC170AD8BE00209D38 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A3D294DD170AD8BE00209D38 /* connector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connector.h; sourceTree = "<group>"; };
+		A3D294DE170AD8BE00209D38 /* context_id.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context_id.h; sourceTree = "<group>"; };
+		A3D294DF170AD8BE00209D38 /* darts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = darts.h; sourceTree = "<group>"; };
+		A3D294E0170AD8BE00209D38 /* dictionary_rewriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dictionary_rewriter.h; sourceTree = "<group>"; };
+		A3D294E1170AD8BE00209D38 /* dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dictionary.h; sourceTree = "<group>"; };
+		A3D294E2170AD8BE00209D38 /* feature_index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = feature_index.h; sourceTree = "<group>"; };
+		A3D294E3170AD8BE00209D38 /* freelist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freelist.h; sourceTree = "<group>"; };
+		A3D294E4170AD8BE00209D38 /* iconv_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iconv_utils.h; sourceTree = "<group>"; };
+		A3D294E5170AD8BE00209D38 /* lbfgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lbfgs.h; sourceTree = "<group>"; };
+		A3D294E6170AD8BE00209D38 /* learner_node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = learner_node.h; sourceTree = "<group>"; };
+		A3D294E7170AD8BE00209D38 /* learner_tagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = learner_tagger.h; sourceTree = "<group>"; };
+		A3D294E8170AD8BE00209D38 /* mecab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mecab.h; sourceTree = "<group>"; };
+		A3D294E9170AD8BE00209D38 /* mempool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
+		A3D294EA170AD8BE00209D38 /* mmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmap.h; sourceTree = "<group>"; };
+		A3D294EB170AD8BF00209D38 /* mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		A3D294EC170AD8BF00209D38 /* nbest_generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nbest_generator.h; sourceTree = "<group>"; };
+		A3D294ED170AD8BF00209D38 /* param.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = param.h; sourceTree = "<group>"; };
+		A3D294EE170AD8BF00209D38 /* scoped_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoped_ptr.h; sourceTree = "<group>"; };
+		A3D294EF170AD8BF00209D38 /* stream_wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stream_wrapper.h; sourceTree = "<group>"; };
+		A3D294F0170AD8BF00209D38 /* string_buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string_buffer.h; sourceTree = "<group>"; };
+		A3D294F1170AD8BF00209D38 /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		A3D294F2170AD8BF00209D38 /* tokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenizer.h; sourceTree = "<group>"; };
+		A3D294F3170AD8BF00209D38 /* ucs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ucs.h; sourceTree = "<group>"; };
+		A3D294F4170AD8BF00209D38 /* ucstable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ucstable.h; sourceTree = "<group>"; };
+		A3D294F5170AD8BF00209D38 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		A3D294F6170AD8BF00209D38 /* viterbi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viterbi.h; sourceTree = "<group>"; };
+		A3D294F7170AD8BF00209D38 /* viterbisub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viterbisub.h; sourceTree = "<group>"; };
+		A3D294F8170AD8BF00209D38 /* writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		A3D29518170AD8CC00209D38 /* char_property.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = char_property.cpp; sourceTree = "<group>"; };
+		A3D29519170AD8CC00209D38 /* connector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connector.cpp; sourceTree = "<group>"; };
+		A3D2951A170AD8CC00209D38 /* context_id.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = context_id.cpp; sourceTree = "<group>"; };
+		A3D2951B170AD8CC00209D38 /* dictionary_compiler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary_compiler.cpp; sourceTree = "<group>"; };
+		A3D2951C170AD8CC00209D38 /* dictionary_generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary_generator.cpp; sourceTree = "<group>"; };
+		A3D2951D170AD8CC00209D38 /* dictionary_rewriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary_rewriter.cpp; sourceTree = "<group>"; };
+		A3D2951E170AD8CC00209D38 /* dictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary.cpp; sourceTree = "<group>"; };
+		A3D2951F170AD8CC00209D38 /* eval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = eval.cpp; sourceTree = "<group>"; };
+		A3D29520170AD8CC00209D38 /* feature_index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = feature_index.cpp; sourceTree = "<group>"; };
+		A3D29521170AD8CC00209D38 /* iconv_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iconv_utils.cpp; sourceTree = "<group>"; };
+		A3D29522170AD8CC00209D38 /* lbfgs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lbfgs.cpp; sourceTree = "<group>"; };
+		A3D29523170AD8CC00209D38 /* learner_tagger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learner_tagger.cpp; sourceTree = "<group>"; };
+		A3D29524170AD8CC00209D38 /* learner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learner.cpp; sourceTree = "<group>"; };
+		A3D29525170AD8CC00209D38 /* libmecab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libmecab.cpp; sourceTree = "<group>"; };
+		A3D29526170AD8CC00209D38 /* mecab-cost-train.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mecab-cost-train.cpp"; sourceTree = "<group>"; };
+		A3D29527170AD8CC00209D38 /* mecab-dict-gen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mecab-dict-gen.cpp"; sourceTree = "<group>"; };
+		A3D29528170AD8CC00209D38 /* mecab-dict-index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mecab-dict-index.cpp"; sourceTree = "<group>"; };
+		A3D29529170AD8CC00209D38 /* mecab-system-eval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mecab-system-eval.cpp"; sourceTree = "<group>"; };
+		A3D2952A170AD8CC00209D38 /* mecab-test-gen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mecab-test-gen.cpp"; sourceTree = "<group>"; };
+		A3D2952B170AD8CC00209D38 /* mecab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mecab.cpp; sourceTree = "<group>"; };
+		A3D2952C170AD8CC00209D38 /* nbest_generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nbest_generator.cpp; sourceTree = "<group>"; };
+		A3D2952D170AD8CC00209D38 /* param.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = param.cpp; sourceTree = "<group>"; };
+		A3D2952E170AD8CC00209D38 /* string_buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string_buffer.cpp; sourceTree = "<group>"; };
+		A3D2952F170AD8CC00209D38 /* tagger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tagger.cpp; sourceTree = "<group>"; };
+		A3D29530170AD8CC00209D38 /* tokenizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tokenizer.cpp; sourceTree = "<group>"; };
+		A3D29531170AD8CC00209D38 /* utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		A3D29532170AD8CC00209D38 /* viterbi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = viterbi.cpp; sourceTree = "<group>"; };
+		A3D29533170AD8CC00209D38 /* writer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = writer.cpp; sourceTree = "<group>"; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libmecab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmecab.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libmecab.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* mecab */ = {
+			isa = PBXGroup;
+			children = (
+				A3D29451170AD86300209D38 /* mecab */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = mecab;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D2944F170AD7F000209D38 /* mecab_Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A3D29451170AD86300209D38 /* mecab */ = {
+			isa = PBXGroup;
+			children = (
+				A3D29452170AD86300209D38 /* Classes */,
+				32C88DFF0371C24200C91783 /* Supporting Files */,
+			);
+			path = mecab;
+			sourceTree = "<group>";
+		};
+		A3D29452170AD86300209D38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3D29518170AD8CC00209D38 /* char_property.cpp */,
+				A3D29519170AD8CC00209D38 /* connector.cpp */,
+				A3D2951A170AD8CC00209D38 /* context_id.cpp */,
+				A3D2951B170AD8CC00209D38 /* dictionary_compiler.cpp */,
+				A3D2951C170AD8CC00209D38 /* dictionary_generator.cpp */,
+				A3D2951D170AD8CC00209D38 /* dictionary_rewriter.cpp */,
+				A3D2951E170AD8CC00209D38 /* dictionary.cpp */,
+				A3D2951F170AD8CC00209D38 /* eval.cpp */,
+				A3D29520170AD8CC00209D38 /* feature_index.cpp */,
+				A3D29521170AD8CC00209D38 /* iconv_utils.cpp */,
+				A3D29522170AD8CC00209D38 /* lbfgs.cpp */,
+				A3D29523170AD8CC00209D38 /* learner_tagger.cpp */,
+				A3D29524170AD8CC00209D38 /* learner.cpp */,
+				A3D29525170AD8CC00209D38 /* libmecab.cpp */,
+				A3D29526170AD8CC00209D38 /* mecab-cost-train.cpp */,
+				A3D29527170AD8CC00209D38 /* mecab-dict-gen.cpp */,
+				A3D29528170AD8CC00209D38 /* mecab-dict-index.cpp */,
+				A3D29529170AD8CC00209D38 /* mecab-system-eval.cpp */,
+				A3D2952A170AD8CC00209D38 /* mecab-test-gen.cpp */,
+				A3D2952B170AD8CC00209D38 /* mecab.cpp */,
+				A3D2952C170AD8CC00209D38 /* nbest_generator.cpp */,
+				A3D2952D170AD8CC00209D38 /* param.cpp */,
+				A3D2952E170AD8CC00209D38 /* string_buffer.cpp */,
+				A3D2952F170AD8CC00209D38 /* tagger.cpp */,
+				A3D29530170AD8CC00209D38 /* tokenizer.cpp */,
+				A3D29531170AD8CC00209D38 /* utils.cpp */,
+				A3D29532170AD8CC00209D38 /* viterbi.cpp */,
+				A3D29533170AD8CC00209D38 /* writer.cpp */,
+				A3D294DA170AD8BE00209D38 /* char_property.h */,
+				A3D294DB170AD8BE00209D38 /* common.h */,
+				A3D294DC170AD8BE00209D38 /* config.h */,
+				A3D294DD170AD8BE00209D38 /* connector.h */,
+				A3D294DE170AD8BE00209D38 /* context_id.h */,
+				A3D294DF170AD8BE00209D38 /* darts.h */,
+				A3D294E0170AD8BE00209D38 /* dictionary_rewriter.h */,
+				A3D294E1170AD8BE00209D38 /* dictionary.h */,
+				A3D294E2170AD8BE00209D38 /* feature_index.h */,
+				A3D294E3170AD8BE00209D38 /* freelist.h */,
+				A3D294E4170AD8BE00209D38 /* iconv_utils.h */,
+				A3D294E5170AD8BE00209D38 /* lbfgs.h */,
+				A3D294E6170AD8BE00209D38 /* learner_node.h */,
+				A3D294E7170AD8BE00209D38 /* learner_tagger.h */,
+				A3D294E8170AD8BE00209D38 /* mecab.h */,
+				A3D294E9170AD8BE00209D38 /* mempool.h */,
+				A3D294EA170AD8BE00209D38 /* mmap.h */,
+				A3D294EB170AD8BF00209D38 /* mutex.h */,
+				A3D294EC170AD8BF00209D38 /* nbest_generator.h */,
+				A3D294ED170AD8BF00209D38 /* param.h */,
+				A3D294EE170AD8BF00209D38 /* scoped_ptr.h */,
+				A3D294EF170AD8BF00209D38 /* stream_wrapper.h */,
+				A3D294F0170AD8BF00209D38 /* string_buffer.h */,
+				A3D294F1170AD8BF00209D38 /* thread.h */,
+				A3D294F2170AD8BF00209D38 /* tokenizer.h */,
+				A3D294F3170AD8BF00209D38 /* ucs.h */,
+				A3D294F4170AD8BF00209D38 /* ucstable.h */,
+				A3D294F5170AD8BF00209D38 /* utils.h */,
+				A3D294F6170AD8BF00209D38 /* viterbi.h */,
+				A3D294F7170AD8BF00209D38 /* viterbisub.h */,
+				A3D294F8170AD8BF00209D38 /* writer.h */,
+				A3D294D2170AD89F00209D38 /* AUTHORS */,
+				A3D294D3170AD89F00209D38 /* BSD */,
+				A3D294D4170AD89F00209D38 /* ChangeLog */,
+				A3D294D5170AD89F00209D38 /* COPYING */,
+				A3D294D6170AD89F00209D38 /* GPL */,
+				A3D294D7170AD89F00209D38 /* LGPL */,
+				A3D294D8170AD89F00209D38 /* NEWS */,
+				A3D294D9170AD89F00209D38 /* README */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D29450170AD7F000209D38 /* mecab_Prefix.pch in Headers */,
+				A3D294F9170AD8BF00209D38 /* char_property.h in Headers */,
+				A3D294FA170AD8BF00209D38 /* common.h in Headers */,
+				A3D294FB170AD8BF00209D38 /* config.h in Headers */,
+				A3D294FC170AD8BF00209D38 /* connector.h in Headers */,
+				A3D294FD170AD8BF00209D38 /* context_id.h in Headers */,
+				A3D294FE170AD8BF00209D38 /* darts.h in Headers */,
+				A3D294FF170AD8BF00209D38 /* dictionary_rewriter.h in Headers */,
+				A3D29500170AD8BF00209D38 /* dictionary.h in Headers */,
+				A3D29501170AD8BF00209D38 /* feature_index.h in Headers */,
+				A3D29502170AD8BF00209D38 /* freelist.h in Headers */,
+				A3D29503170AD8BF00209D38 /* iconv_utils.h in Headers */,
+				A3D29504170AD8BF00209D38 /* lbfgs.h in Headers */,
+				A3D29505170AD8BF00209D38 /* learner_node.h in Headers */,
+				A3D29506170AD8BF00209D38 /* learner_tagger.h in Headers */,
+				A3D29507170AD8BF00209D38 /* mecab.h in Headers */,
+				A3D29508170AD8BF00209D38 /* mempool.h in Headers */,
+				A3D29509170AD8BF00209D38 /* mmap.h in Headers */,
+				A3D2950A170AD8BF00209D38 /* mutex.h in Headers */,
+				A3D2950B170AD8BF00209D38 /* nbest_generator.h in Headers */,
+				A3D2950C170AD8BF00209D38 /* param.h in Headers */,
+				A3D2950D170AD8BF00209D38 /* scoped_ptr.h in Headers */,
+				A3D2950E170AD8BF00209D38 /* stream_wrapper.h in Headers */,
+				A3D2950F170AD8BF00209D38 /* string_buffer.h in Headers */,
+				A3D29510170AD8BF00209D38 /* thread.h in Headers */,
+				A3D29511170AD8BF00209D38 /* tokenizer.h in Headers */,
+				A3D29512170AD8BF00209D38 /* ucs.h in Headers */,
+				A3D29513170AD8BF00209D38 /* ucstable.h in Headers */,
+				A3D29514170AD8BF00209D38 /* utils.h in Headers */,
+				A3D29515170AD8BF00209D38 /* viterbi.h in Headers */,
+				A3D29516170AD8BF00209D38 /* viterbisub.h in Headers */,
+				A3D29517170AD8BF00209D38 /* writer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* mecab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "mecab" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mecab;
+			productName = mecab;
+			productReference = D2AAC07E0554694100DB518D /* libmecab.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "mecab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* mecab */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* mecab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D29534170AD8CC00209D38 /* char_property.cpp in Sources */,
+				A3D29535170AD8CC00209D38 /* connector.cpp in Sources */,
+				A3D29536170AD8CC00209D38 /* context_id.cpp in Sources */,
+				A3D29537170AD8CC00209D38 /* dictionary_compiler.cpp in Sources */,
+				A3D29538170AD8CC00209D38 /* dictionary_generator.cpp in Sources */,
+				A3D29539170AD8CC00209D38 /* dictionary_rewriter.cpp in Sources */,
+				A3D2953A170AD8CC00209D38 /* dictionary.cpp in Sources */,
+				A3D2953B170AD8CC00209D38 /* eval.cpp in Sources */,
+				A3D2953C170AD8CC00209D38 /* feature_index.cpp in Sources */,
+				A3D2953D170AD8CC00209D38 /* iconv_utils.cpp in Sources */,
+				A3D2953E170AD8CC00209D38 /* lbfgs.cpp in Sources */,
+				A3D2953F170AD8CC00209D38 /* learner_tagger.cpp in Sources */,
+				A3D29540170AD8CC00209D38 /* learner.cpp in Sources */,
+				A3D29541170AD8CC00209D38 /* libmecab.cpp in Sources */,
+				A3D29542170AD8CC00209D38 /* mecab-cost-train.cpp in Sources */,
+				A3D29543170AD8CC00209D38 /* mecab-dict-gen.cpp in Sources */,
+				A3D29544170AD8CC00209D38 /* mecab-dict-index.cpp in Sources */,
+				A3D29545170AD8CC00209D38 /* mecab-system-eval.cpp in Sources */,
+				A3D29546170AD8CC00209D38 /* mecab-test-gen.cpp in Sources */,
+				A3D29547170AD8CC00209D38 /* mecab.cpp in Sources */,
+				A3D29548170AD8CC00209D38 /* nbest_generator.cpp in Sources */,
+				A3D29549170AD8CC00209D38 /* param.cpp in Sources */,
+				A3D2954A170AD8CC00209D38 /* string_buffer.cpp in Sources */,
+				A3D2954B170AD8CC00209D38 /* tagger.cpp in Sources */,
+				A3D2954C170AD8CC00209D38 /* tokenizer.cpp in Sources */,
+				A3D2954D170AD8CC00209D38 /* utils.cpp in Sources */,
+				A3D2954E170AD8CC00209D38 /* viterbi.cpp in Sources */,
+				A3D2954F170AD8CC00209D38 /* writer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/mecab.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mecab/mecab_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = mecab;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/mecab.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mecab/mecab_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = mecab;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "mecab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "mecab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
