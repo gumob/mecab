@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4B4B926-DE90-4995-8D0A-CF978ABF4A8B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mecab</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3345886-9EEF-4254-979C-11B8F48E5E84</key>
+		<string>ssh://github.com/gumob/mecab.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mecab/mecab.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3345886-9EEF-4254-979C-11B8F48E5E84</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/gumob/mecab.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3345886-9EEF-4254-979C-11B8F48E5E84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3345886-9EEF-4254-979C-11B8F48E5E84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mecab</string>
+		</dict>
+	</array>
+</dict>
+</plist>
