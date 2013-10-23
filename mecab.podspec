@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
     spec.requires_arc           = false
     spec.xcconfig               = {
                                         'CLANG_CXX_LIBRARY' => 'libc++',
-                                        'OTHER_LDFLAGS' => '-ObjC'
+                                        'OTHER_LDFLAGS' => '-ObjC -lc++'
                                   }
 end
