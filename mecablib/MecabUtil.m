@@ -1,5 +1,5 @@
 //
-//  Mecab.m
+//  MecabUtil.m
 //
 //  Created by Watanabe Toshinori on 10/12/22.
 //  Copyright 2010 FLCL.jp. All rights reserved.
@@ -9,11 +9,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <iconv.h>
-#import "Mecab.h"
-#import "Node.h"
+#import "MecabUtil.h"
+#import "MecabNode.h"
 
 
-@implementation Mecab
+@implementation MecabUtil
 
 - (NSArray *)parseToNodeWithString:(NSString *)string {
 
@@ -50,7 +50,7 @@
 	node = node->next;
 	for (; node->next != NULL; node = node->next) {
 
-		Node *newNode = [Node new];
+		MecabNode *newNode = [MecabNode new];
 		newNode.surface = [[[NSString alloc] initWithBytes:node->surface length:node->length encoding:NSUTF8StringEncoding] autorelease];
 		newNode.feature = [NSString stringWithCString:node->feature encoding:NSUTF8StringEncoding];
 		[newNodes addObject:newNode];
