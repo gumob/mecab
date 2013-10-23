@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 	spec.license				= 'BSD,LGPL,GPL'
 	spec.source					= { :git => 'https://github.com/gumob/mecab.git' }
 	spec.source_files			= 'mecab/mecab/Classes/*.{h,cpp}', 'mecablib/*'
-	spec.libraries				= 'c', 'c++', 'stdc++', 'sstream', 'iostream'
+	spec.libraries				= 'c', 'c++', 'stdc++'
     spec.resource_bundle        = {'mecab' => ['mecabdic/*']}
     spec.prefix_header_file     = 'mecab/mecab/mecab_Prefix.pch'
 	spec.requires_arc			= false
