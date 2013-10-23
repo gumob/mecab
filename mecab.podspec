@@ -8,10 +8,10 @@ Pod::Spec.new do |spec|
     spec.summary                = 'Mecab Static Library for iOS 6'
     spec.license                = 'BSD,LGPL,GPL'
     spec.source                 = { :git => 'https://github.com/gumob/mecab.git' }
-    spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}', 'mecablib/*'
-#     spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}'
+#     spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}', 'mecablib/*'
+    spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}'
     spec.libraries              = 'c', 'c++', 'stdc++'
-    spec.resource_bundle        = {'mecab' => ['mecabdic/*']}
+#     spec.resource_bundle        = {'mecab' => ['mecabdic/*']}
     spec.prefix_header_file     = 'mecab/mecab/mecab_Prefix.pch'
     spec.requires_arc           = false
     spec.xcconfig               = {
