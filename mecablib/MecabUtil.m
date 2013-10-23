@@ -10,7 +10,7 @@
 #include <string.h>
 #include <iconv.h>
 #import "MecabUtil.h"
-#import "MecabNode.h"
+#import "Node.h"
 
 
 @implementation MecabUtil
@@ -50,7 +50,7 @@
 	node = node->next;
 	for (; node->next != NULL; node = node->next) {
 
-		MecabNode *newNode = [MecabNode new];
+		Node *newNode = [Node new];
 		newNode.surface = [[[NSString alloc] initWithBytes:node->surface length:node->length encoding:NSUTF8StringEncoding] autorelease];
 		newNode.feature = [NSString stringWithCString:node->feature encoding:NSUTF8StringEncoding];
 		[newNodes addObject:newNode];
