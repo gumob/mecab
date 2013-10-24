@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
     spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}'
 #     spec.libraries              = 'c++'
 #     spec.resource_bundle        = {'mecab' => ['mecabdic/*']}
+    spec.framework              = 'Foundation'
     spec.prefix_header_file     = 'mecab/mecab/mecab_Prefix.pch'
     spec.requires_arc           = false
     spec.xcconfig               = {
