@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
     spec.xcconfig               = {
                                         'ARCHS'                       => '$(ARCHS_STANDARD_INCLUDING_64_BIT)',
                                         'VALID_ARCHS'                 => 'arm64 armv7 armv7s',
+                                        'SKIP_INSTALL'                => 'YES'
                                         'GCC_C_LANGUAGE_STANDARD'     => 'c99',
                                         'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default', 
                                         'CLANG_CXX_LIBRARY'           => 'compiler-default',
