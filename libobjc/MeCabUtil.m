@@ -1,5 +1,5 @@
 //
-//  MeCab.m
+//  MeCabUtil.m
 //
 //  Created by Watanabe Toshinori on 10/12/22.
 //  Copyright 2010 FLCL.jp. All rights reserved.
@@ -9,11 +9,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <iconv.h>
-#import "MeCab.h"
+#import "MeCabUtil.h"
 #import "Node.h"
 
 
-@implementation MeCab
+@implementation MeCabUtil
 
 - (NSArray *)parseToNodeWithString:(NSString *)string {
 
