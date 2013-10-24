@@ -9,10 +9,11 @@ Pod::Spec.new do |spec|
     spec.license                = 'BSD,LGPL,GPL'
     spec.source                 = { :git => 'https://github.com/gumob/mecab.git', :tag => '0.996' }
     spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}', 'libobjc/*'
-    spec.libraries              = 'iconv'
+    spec.libraries              = 'iconv', 'mecab'
     spec.resource_bundle        = {'mecab' => ['ipadic/*']}
     spec.framework              = 'Foundation'
     spec.prefix_header_file     = 'mecab/mecab/mecab_Prefix.pch'
+    spec.preserve_paths         = 'mecab/libmecab.a'
     spec.requires_arc           = false
     spec.xcconfig               = {
                                         'ARCHS'                        => '$(ARCHS_STANDARD_INCLUDING_64_BIT)',
