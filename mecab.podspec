@@ -10,15 +10,16 @@ Pod::Spec.new do |spec|
     spec.source                 = { :git => 'https://github.com/gumob/mecab.git', :tag => '0.996' }
 #     spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}', 'mecablib/*'
     spec.source_files           = 'mecab/mecab/Classes/*.{h,cpp}'
-    spec.libraries              = 'c++'
+#     spec.libraries              = 'c++'
 #     spec.resource_bundle        = {'mecab' => ['mecabdic/*']}
     spec.prefix_header_file     = 'mecab/mecab/mecab_Prefix.pch'
     spec.requires_arc           = false
     spec.xcconfig               = {
-                                        'ARCHS'                    => '$(ARCHS_STANDARD_INCLUDING_64_BIT)',
-                                        'VALID_ARCHS'              => 'arm64 armv7 armv7s',
-                                        'GCC_C_LANGUAGE_STANDARD'  => 'c99',
-                                        'CLANG_CXX_LIBRARY'        => 'libc++',
-                                        'OTHER_LDFLAGS'            => '-ObjC'
+                                        'ARCHS'                       => '$(ARCHS_STANDARD_INCLUDING_64_BIT)',
+                                        'VALID_ARCHS'                 => 'arm64 armv7 armv7s',
+                                        'GCC_C_LANGUAGE_STANDARD'     => 'c99',
+                                        'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default', 
+                                        'CLANG_CXX_LIBRARY'           => 'compiler-default',
+                                        'OTHER_LDFLAGS'               => '-ObjC'
                                   }
 end
