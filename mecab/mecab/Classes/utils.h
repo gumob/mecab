@@ -21,7 +21,9 @@
 #ifdef HAVE_STDINT_H
 #include <stdint.h>
 #else  // HAVE_STDINT_H
-#if defined(_WIN32) && !defined(__CYGWIN__)
+#ifndef __MACTYPES__
+typedef unsigned int uint32_t;
+#elif defined(_WIN32) && !defined(__CYGWIN__)
 #if defined(_MSC_VER) && (_MSC_VER <= 1500)
 typedef unsigned char uint8_t;
 typedef unsigned long uint32_t;
@@ -34,9 +36,6 @@ typedef unsigned char uint8_t;
 typedef unsigned long uint32_t;
 typedef unsigned __int64 uint64_t;
 #endif  // _WIN32
-#ifndef __MACTYPES__
-typedef unsigned int uint32_t;
-#endif
 #endif  // HAVE_STDINT_H
 
 namespace MeCab {
