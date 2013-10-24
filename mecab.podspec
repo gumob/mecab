@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     spec.prefix_header_file     = 'mecab/mecab/mecab_Prefix.pch'
     spec.requires_arc           = false
     spec.xcconfig               = {
-                                        'ARCHS'                    => 'arm64 armv7 armv7s',
+                                        'ARCHS'                    => '$(ARCHS_STANDARD_INCLUDING_64_BIT)',
                                         'VALID_ARCHS'              => 'arm64 armv7 armv7s',
                                         'GCC_C_LANGUAGE_STANDARD'  => 'c99',
                                         'CLANG_CXX_LIBRARY'        => 'libc++',
