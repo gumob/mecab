@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
     spec.author                 = 'Taku Kudo'
     spec.homepage               = 'https://github.com/gumob/mecab'
     spec.platform               = :ios
-    spec.ios.deployment_target  = '5.0'
+    spec.ios.deployment_target  = '5.1.1'
     spec.summary                = 'Mecab Static Library for iOS 6'
     spec.license                = 'BSD,LGPL,GPL'
     spec.source                 = { :git => 'https://github.com/gumob/mecab.git', :tag => '0.996' }
