@@ -9,9 +9,11 @@
 #include <errno.h>
 #include <string>
 
-// fix for CocoaPods
+ // fix for CocoaPods
+#ifndef __MACTYPES__
 #include <fcntl.h>
 #include <sys/stat.h>
+#endif
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
