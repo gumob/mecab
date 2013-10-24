@@ -13,6 +13,9 @@ Pod::Spec.new do |spec|
     spec.prefix_header_file    = 'mecab/mecab/mecab_Prefix.pch'
     spec.libraries             = 'iconv', 'mecab'
     spec.preserve_paths        = 'libmecab.a'
-    spec.xcconfig              = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/mecab"' }
+    spec.xcconfig              = {
+                                     'HEADER_SEARCH_PATHS'  => '"$(PODS_ROOT)/header/mecab"',
+                                     'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/mecab"'
+                                 }
     spec.requires_arc          = false
 end
