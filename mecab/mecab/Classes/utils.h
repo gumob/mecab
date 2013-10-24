@@ -21,7 +21,7 @@
 #ifdef HAVE_STDINT_H
 #include <stdint.h>
 #else  // HAVE_STDINT_H
-#ifndef __MACTYPES__
+#ifndef __MACTYPES__ // fix for CocoaPods
 typedef unsigned int uint32_t;
 #elif defined(_WIN32) && !defined(__CYGWIN__)
 #if defined(_MSC_VER) && (_MSC_VER <= 1500)
