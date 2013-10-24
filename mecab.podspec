@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.homepage              = 'https://github.com/gumob/mecab'
     spec.platform              = :ios
     spec.ios.deployment_target = '5.1.1'
-    spec.summary               = 'MeCab Library for iOS'
+    spec.summary               = 'MeCab for iOS'
     spec.license               = 'BSD,LGPL,GPL'
     spec.source                = { :git => 'https://github.com/gumob/mecab.git', :tag => '0.996' }
     spec.source_files          = 'mecab/mecab/Classes/*.h', 'libobjc/*.{h,m}'
