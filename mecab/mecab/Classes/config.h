@@ -1,3 +1,7 @@
+#ifndef HAVE_CONFIG_H
+#define HAVE_CONFIG_H
+#endif
+
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.in by autoheader.  */
 
